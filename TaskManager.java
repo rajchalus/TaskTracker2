@@ -58,5 +58,6 @@ public class TaskManager {
         for (Task task : tasks) {
             System.out.println("- " + task);
         }
+        System.out.println("\nTotal number of tasks: " + tasks.size());
     }
 }
